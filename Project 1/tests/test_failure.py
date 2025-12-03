@@ -8,7 +8,8 @@ def test_intentional_failure(page_context):
     # 1. Login successfully
     login.do_login("standard_user", "secret_sauce")
 
-    # 2. INTENTIONAL BUG: Assert the wrong title
-    # The real title is "Swag Labs", but we expect "Amazon"
-    print("\n⚠️ Intentional failure starting now...")
+    # 2. failure scenario
+    # The real title is "Swag Labs", but we expect "Appukutti"
+    print("\n Intentional failure starting now...")
+
     expect(page).to_have_title("Appukutti")
