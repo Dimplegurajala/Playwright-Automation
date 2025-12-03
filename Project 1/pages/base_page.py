@@ -2,7 +2,7 @@ class BasePage:
     def __init__(self, page):
         self.page = page
 
-    # WRAPPER METHODS (Safe Actions)
+    # (Safe Actions - throught the application)
     def do_click(self, locator):
         locator.wait_for(state="visible")
         locator.click()
@@ -13,4 +13,5 @@ class BasePage:
         
     def get_text(self, locator):
         locator.wait_for(state="visible")
+
         return locator.text_content()
