@@ -107,4 +107,4 @@ This project is fully integrated with GitHub Actions.
 ## iii) Artifacts: Automatically uploads HTML reports and Traces to GitHub artifacts upon pipeline failure.
 
 
-# Dimple Gurajala SDET II | Python Automation Specialist
+# Dimple Gurajala SDET-QA Automation Tester | Python Automation Specialist
