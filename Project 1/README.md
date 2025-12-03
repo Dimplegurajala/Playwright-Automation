@@ -29,10 +29,13 @@ The framework follows a modular Page Object Model (POM) structure to ensure main
 │   ├── test_login.py      # Data-Driven Login Tests
 
 │   └── test_network.py    # Chaos Engineering (Mocking 500 Errors)
+
 │
 ├── conftest.py            # The "Brain" (Fixtures, Hooks, Tracing)
 
+
 └── requirements.txt       # Dependencies
+
 
  # Key Features
  
