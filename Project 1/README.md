@@ -20,6 +20,8 @@ The framework follows a modular Page Object Model (POM) structure to ensure main
 
 │   ├── products_page.py   # Inventory management
 
+ └── cart_page.py          # add to cart , remove item
+
 │   └── checkout_page.py   # Cart & Checkout flows
 │
 ├── tests/                 # Test Scripts
@@ -29,6 +31,12 @@ The framework follows a modular Page Object Model (POM) structure to ensure main
 │   ├── test_login.py      # Data-Driven Login Tests
 
 │   └── test_network.py    # Chaos Engineering (Mocking 500 Errors)
+
+ └── test_sorting.py   # sort prices from HiLo in products page
+
+  └── test_cart_logic.py   # Dtaa Persistance- session and DOM Reactivity
+
+   └── test_error_handling.py   # Negative Testing- going to inventory page without loggin in/clciking submit without entering shipping info
 
 │
 ├── conftest.py            # The "Brain" (Fixtures, Hooks, Tracing)
